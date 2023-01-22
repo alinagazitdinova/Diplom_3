@@ -11,7 +11,7 @@ public class ConstructorTests {
     public BrowserRule browserRule = new BrowserRule();
 
     @Test
-    @DisplayName("Раздел Соусы  есть в Конструкторе")
+    @DisplayName("Раздел Соусы  есть в Конструкторе, произошел переход")
     public void checkSauces() {
         MainPage mainPage = new MainPage(browserRule.getDriver());
         mainPage.open();
@@ -19,7 +19,7 @@ public class ConstructorTests {
     }
 
     @Test
-    @DisplayName("Раздел Булки есть в Конструкторе")
+    @DisplayName("Раздел Булки есть в Конструкторе, произошел переход")
     public void checkBuns() {
         MainPage mainPage = new MainPage(browserRule.getDriver());
         mainPage.open();
@@ -27,7 +27,7 @@ public class ConstructorTests {
     }
 
     @Test
-    @DisplayName("Раздел Начинки есть в Конструкторе")
+    @DisplayName("Раздел Начинки есть в Конструкторе, произошел переход")
     public void checkFillings() {
         MainPage mainPage = new MainPage(browserRule.getDriver());
         mainPage.open();
