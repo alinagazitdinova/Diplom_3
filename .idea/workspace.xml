@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dabd333-9665-4d63-91fe-fa0617669535" name="Changes" comment="Создание тестовых классов" />
+    <list default="true" id="7dabd333-9665-4d63-91fe-fa0617669535" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,6 +46,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn allure:report" />
+      <command value="mvn allure:serve" />
+      <command value="mvn clean test" />
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.RegistrationTest.successfulLogOut">
     <configuration name="ConstructorTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Diplom3" />
@@ -162,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674391081558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Изменения в тестовом классе Конструктора">
+      <created>1674391269484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674391269484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +209,7 @@
     <MESSAGE value="Создание проекта" />
     <MESSAGE value="Создание вспомогательных классов" />
     <MESSAGE value="Создание тестовых классов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создание тестовых классов" />
+    <MESSAGE value="Изменения в тестовом классе Конструктора" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменения в тестовом классе Конструктора" />
   </component>
 </project>
